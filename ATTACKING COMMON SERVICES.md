@@ -12,6 +12,7 @@
 
 |**Command**|**Description**|
 |-|-|
+| `smbclient '\\172.16.7.3\Department Shares' -U AB920%weasal -c 'recurse;ls'` | Recursive list for a share |
 | `smbclient -N -L //10.129.14.128` | Null-session testing against the SMB service. |
 | `smbmap -H 10.129.14.128` | Network share enumeration using `smbmap`. |
 | `smbmap -H 10.129.14.128 -r notes` | Recursive network share enumeration using `smbmap`. |
